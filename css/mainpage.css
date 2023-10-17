@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+  color: darkblue;
+  margin-inline: 2rem;
+}
+nav a {
+  border: 5px solid darkblue;
+  background-color: aquamarine;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  nav {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    flex-direction: row;
+    text-align: center;
+    gap: 2rem;
+    color: darkblue;
+  }
+  nav a {
+    border: 5px solid darkblue;
+    background-color: aquamarine;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+}
